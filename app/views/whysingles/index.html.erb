@@ -1,0 +1,23 @@
+<div class="container">
+
+<div class="page-header">
+  <div class="pull-right"><%= link_to 'New Reason Why You are Single', new_whysingle_path, class: 'btn btn-info' %></div>
+  <h1>99 reasons</h1>
+</div>
+
+  <table class="table">
+    <thead>
+      <tr>
+      <th>This is why I'm single</th>
+      <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @whysingle.each do |whysingle| %>
+      <tr>
+        <td><%= whysingle.reason %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>

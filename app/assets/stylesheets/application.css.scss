@@ -1,2 +1,26 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {background-image: asset-url("heart.png");
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;}
+
+
+h1 {
+  color: #c5d8d5;
+}
+
+
+.text-color {
+  color: #a0acf8;
+}
+
+th {
+  color: #ff7373;
+}
+
+td {
+  color: #a0acf8;
+}

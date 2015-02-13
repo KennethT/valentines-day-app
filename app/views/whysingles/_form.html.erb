@@ -1,0 +1,10 @@
+<%= form_for @whysingle do |f| %>
+
+<div class="form_group">
+  <%= f.label :reason, 'Why I think I am single', class: "control-label col-md-2" %>
+  <%= f.text_field :reason, class: "col-md-4" %> <br>
+</div>
+<br>
+<br>
+<%= f.submit "Send in a reason", class:"btn btn-primary col-md-offset-4"%>
+<% end %>
